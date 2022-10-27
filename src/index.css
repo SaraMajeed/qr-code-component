@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%)
+}
+
+/* https://www.freecodecamp.org/news/css-vertical-align-how-to-center-a-div-text-or-an-image-example-code/ */
+.container {
+    background-color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img, .container {
+    width: 350px;
+    text-align: center;
+    padding: 7px;
+    border-radius: 15px;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+}
+
+p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    padding-bottom: 30px;
+    font-weight: 400;
+}
+
+p, h2 {
+    font-family: 'Outfit', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
