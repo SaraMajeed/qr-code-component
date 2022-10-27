@@ -45,4 +45,11 @@ p, h2 {
     padding-right: 30px;
 }
 
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+}
 
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
